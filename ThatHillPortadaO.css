@@ -1,7 +1,8 @@
 .bettybaulo {
-    --background-4: #fbfbfb;
-    --background-1: #f6f6f6;
-    --background-2: #f1f1f1;
+    --background-1: #333;
+    --background-2: #555;
+    --background-4: #222;
+    --color-1: #aaa;
 }
 .bettybaulo{
     margin: 10px auto;
