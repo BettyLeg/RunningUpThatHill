@@ -1,0 +1,97 @@
+.bettybaulo {
+    --background-1: #333;
+    --background-2: #555;
+    --background-4: #222;
+    --color-1: #aaa;
+}
+.bettyc-tema > span > i{
+    color: var(--accent);
+     font-size: 8px;
+     padding: 0px 4px;
+}
+.bettyc-tema > span{
+    line-height:9px;
+    font-family: 'Poppins';
+     font-size: 9px;
+     font-weight: 400;
+     color: #aaa;
+}
+.bettyc-tema > a{
+    color: var(--accent);
+     font-family: 'Playfair Display';
+     font-size: 13px;
+     font-weight: 700;
+     line-height:13px;
+     margin-bottom:4px;
+}
+.bettyc-tema > i{
+    position: absolute;
+     z-index: -1;
+     left: 10px;
+     font-size: 20px;
+     color: #ddd;
+}
+.bettyc-tema{
+    height:40px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     margin: 10px 0px;
+     position: relative;
+     z-index: 1;
+     padding: 0px 10px;
+     padding-left: 50px;
+     line-height: 20px;
+}
+.bettyc-subt{
+    font-size: 12px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     padding-right: 10px;
+     position:absolute;
+     top:10px;
+     right:5px;
+}
+.bettyc-subt > i{
+    color: var(--accent);
+     font-size: 12px;
+     margin-right: 10px;
+}
+.bettyc-subt > span{
+    font-family: 'Poppins';
+     font-size: 11px;
+     color: #aaa;
+}
+.bettyc-abiertos, .bettyc-cerrados{
+    background: var(--background-1);
+     margin-top: 5px;
+     position: relative;
+     padding: 10px;
+     padding-top: 40px;
+     display: grid;
+     grid-template-columns: repeat(2,196px);
+     gap: 5px;
+}
+.bettybaulo{
+    margin: 10px auto;
+     width: 420px;
+     background: var(--background-4);
+     padding: 5px;
+     border: 15px solid var(--background-2);
+}
+.btb00-cred{
+  text-decoration:none;
+  margin:-5px auto 10px;
+  width:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Arial';
+  font-size:8px;
+  text-transform:uppercase;
+  color:#aaa;
+  font-weight:400;
+  letter-spacing:1px;
+}
