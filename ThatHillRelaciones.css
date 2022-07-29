@@ -1,3 +1,8 @@
+.bettybaul {
+    --background-4: #fbfbfb;
+    --background-1: #f6f6f6;
+    --background-2: #f1f1f1;
+}
 .bettyc-tema > span > i{
     color: var(--accent);
      font-size: 8px;
