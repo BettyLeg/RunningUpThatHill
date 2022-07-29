@@ -1,0 +1,70 @@
+.bettybaulo {
+    --background-1: #333;
+    --background-2: #555;
+    --background-4: #222;
+    --color-1: #aaa;
+}
+.bettybaulo{
+    margin: 10px auto;
+     width: 420px;
+     background: var(--background-4);
+     padding: 5px;
+     border: 15px solid var(--background-2);
+}
+.bettyr-c{
+    background: var(--background-1);
+     margin-top: 5px;
+     display: grid;
+     grid-template-columns: repeat(2,196px);
+     padding: 10px;
+     gap: 5px;
+}
+.bettyrc-pj{
+    display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     flex-direction: column;
+     line-height: 13px;
+     height: 70px;
+     padding: 0px 10px;
+     position: relative;
+}
+.bettyrc-pj > img{
+    width: 50px;
+     height: 50px;
+     position: absolute;
+     left: 0;
+     border-radius: 100%;
+     background: var(--background-4);
+     padding: 4px;
+     display: block;
+     z-index: 1;
+}
+.bettyrc-pj > b{
+    display: block;
+     width: 105px;
+     text-align: right;
+     font-family: 'Playfair Display';
+     font-size: 12px;
+     font-weight: 700;
+     color: var(--accent);
+}
+.bettyrc-pj > span{
+    font-family: 'Poppins';
+     font-size: 10px;
+     color: #aaa;
+}
+.btb00-cred{
+  text-decoration:none;
+  margin:-5px auto 10px;
+  width:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Arial';
+  font-size:8px;
+  text-transform:uppercase;
+  color:#aaa;
+  font-weight:400;
+  letter-spacing:1px;
+}
