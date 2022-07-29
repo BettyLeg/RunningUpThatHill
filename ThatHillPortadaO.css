@@ -1,0 +1,201 @@
+.bettybaulo {
+    --background-4: #fbfbfb;
+    --background-1: #f6f6f6;
+    --background-2: #f1f1f1;
+}
+.bettybaulo{
+    margin: 10px auto;
+     width: 420px;
+     background: var(--background-4);
+     padding: 5px;
+     border: 15px solid var(--background-2);
+}
+.btb00-cred{
+  text-decoration:none;
+  margin:-5px auto 10px;
+  width:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Arial';
+  font-size:8px;
+  text-transform:uppercase;
+  color:#aaa;
+  font-weight:400;
+  letter-spacing:1px;
+}
+.bettyb-t{
+    height: 80px;
+     background: var(--background-1);
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     padding-left: 100px;
+     line-height: 15px;
+}
+.bettyb-t > img{
+    width: 60px;
+     height: 60px;
+     position: absolute;
+     border-radius: 100%;
+     border: 5px solid var(--background-4);
+     left: 10px;
+     background: var(--background-3);
+}
+.bettyb-t > b{
+    font-family: 'Playfair Display';
+     font-size: 15px;
+     color: var(--accent);
+     font-weight: 800;
+}
+.bettyb-t > span{
+    font-size: 11px;
+     font-family: 'Poppins';
+     color: #aaa;
+}
+.bettybc-contenido{
+     height: 300px;
+     margin-top: 5px;
+     display:flex;
+     align-items:center;
+     justify-content:flex-start;
+}
+.bettybc-playlist{
+    background: var(--background-1);
+     height: 30px;
+     margin-top: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 0px 15px;
+}
+.bettybc-playlist > i{
+    color: var(--accent);
+     font-size: 11px;
+}
+.bettybc-playlist > bettybclin{
+    position: relative;
+     width: -webkit-fill-available;
+     height: 5px;
+     background: #eee;
+     margin: 0px 30px;
+     border-radius: 4px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+}
+.bettybc-playlist > bettybclin:before{
+    content: "";
+     width: 10px;
+     height: 10px;
+     background: var(--accent);
+     display: block;
+     border-radius: 100%;
+     left: 30%;
+     position: absolute;
+}
+.bettybc-playlist > bettybclin:after{
+    position: absolute;
+     left: 0;
+     height: 5px;
+     background: var(--accent);
+     content: "";
+     display: block;
+     width: 31%;
+     border-radius: 5px 0px 0px 5px;
+}
+.bettybc-playlist > span{
+    min-width: 160px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     line-height: 11px;
+}
+.bettybc-playlist > span > b{
+    font-size: 11px;
+     font-family: 'Playfair Display';
+     color: var(--accent);
+}
+.bettybc-playlist > span > span{
+    font-family: 'Poppins';
+     font-size: 9px;
+     color:#aaa;
+}
+.bettybc-unocol{
+    background: var(--background-1);
+     width: 305px;
+     height: 100%;
+     margin-right: 5px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     box-sizing: border-box;
+     padding: 10px;
+}
+ .bettybc-doscol{
+    background: var(--background-1);
+     width: 110px;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     z-index: 1;
+}
+ .bettybc-doscol > a{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 30px;
+     height: 30px;
+     background: var(--accent);
+     position: relative;
+     border-radius: 100%;
+     z-index: 1;
+     color: #fff;
+     font-size: 14px;
+     border: 4px solid var(--background-4);
+     margin: 2px 0px;
+}
+.bettybc-doscol > img{
+    width: 60px;
+     height: 60px;
+     border-radius: 100%;
+     background: var(--background-4);
+     padding: 4px;
+     z-index: 1;
+     margin-top: 5px;
+}
+.bettybcu-dato{
+    height: 50px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     z-index: 1;
+     padding: 0 20px 0 60px;
+     line-height: 12px;
+}
+.bettybcu-dato > i{
+    position: absolute;
+     z-index: -1;
+     font-size: 30px;
+     left: 13px;
+     color: #eee;
+}
+.bettybcu-dato > b{
+    font-family: 'Playfair Display';
+     font-size: 12px;
+     font-weight: 700;
+     color: var(--accent);
+}
+.bettybcu-dato > span{
+    color: #aaa;
+     font-family: 'Poppins';
+     font-size: 11px;
+}
