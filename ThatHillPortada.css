@@ -5,6 +5,20 @@
      padding: 5px;
      border: 15px solid var(--background-2);
 }
+.btb00-cred{
+  text-decoration:none;
+  margin:-5px auto 10px;
+  width:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Arial';
+  font-size:8px;
+  text-transform:uppercase;
+  color:#aaa;
+  font-weight:400;
+  letter-spacing:1px;
+}
 .bettyb-t{
     height: 80px;
      background: var(--background-1);
